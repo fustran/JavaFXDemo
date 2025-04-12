@@ -10,6 +10,7 @@ module org.example.mijavafx {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires static lombok;
 
     opens org.example.mijavafx to javafx.fxml;
     exports org.example.mijavafx;
