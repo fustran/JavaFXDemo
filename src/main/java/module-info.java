@@ -14,4 +14,5 @@ module org.example.mijavafx {
 
     opens org.example.mijavafx to javafx.fxml;
     exports org.example.mijavafx;
+
 }
