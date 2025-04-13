@@ -8,19 +8,20 @@
 <VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.mijavafx.Pantalla2Controller">
 
     <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
     </padding>
 
-   <TextField fx:id="tipo" promptText="Tipo de Calzado" />
-   <TextField fx:id="marca" promptText="Marca" />
-   <TextField fx:id="precio" promptText="Precio" />
+   <TextField fx:id="tipo" promptText="Tipo de Calzado"/>
+   <TextField fx:id="marca" promptText="Marca"/>
+   <TextField fx:id="precio" promptText="Precio"/>
 
    <Button mnemonicParsing="false" text="GUARDAR" onAction="#guardar">
       <font>
-         <Font size="18.0" />
+         <Font size="18.0"/>
       </font>
    </Button>
 
-    <Button onAction="#irAlInicio" text="Volver a Hello Controller" />
+    <Button onAction="#irAlInicio" text="Volver a Hello Controller"/>
+    <Button onAction="#pantallaPersona" text="Ir al Formulario"/>
 
 </VBox>

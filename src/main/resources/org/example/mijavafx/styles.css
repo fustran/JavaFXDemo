@@ -1,0 +1,16 @@
+
+.label,
+.button,
+.table-view,
+.text-field {
+    -fx-font-size: 16px;
+}
+
+.text-field:hover,
+.button:hover {
+    -fx-background-color: rgba(162, 220, 162, 0.84);
+}
+
+.root {
+    -fx-background-color: #E0E0E0;
+}
